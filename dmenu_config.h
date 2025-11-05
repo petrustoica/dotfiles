@@ -4,7 +4,8 @@
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Fira Code:pixelsize=20:bold"
+	"BlexMono Nerd Font Mono:bold:pixelsize=24"
+	"Twemoji Color Font:pixelsize=24;antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
