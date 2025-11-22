@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code:bold:pixelsize=14:antialias=true:autohint=true";
+static char *font = "BlexMono Nerd Font Mono:bold:pixelsize=20";
 static int borderpx = 0;
 
 /*
@@ -35,8 +35,6 @@ static float chscale = 1.0;
  * More advanced example: L" `'\"()[]{}"
  */
 wchar_t *worddelimiters = L" ";
-
-float alpha = 0.8;
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -474,3 +472,4 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
+
